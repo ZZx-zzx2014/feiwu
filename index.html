@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人信息</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>个人信息</h1>
+        </header>
+        <section>
+            <h2>联系信息</h2>
+            <p>地址: [请在此输入你的地址]</p>
+        </section>
+        <section>
+            <h2>参与和支持</h2>
+            <button class="styled-button" onclick="joinCommunity()">加入社区服务器</button>
+            <button class="styled-button" onclick="donate()">捐赠支持</button>
+        </section>
+        <footer>
+            <p>© 2025 zzx. 保留所有权利。</p>
+        </footer>
+    </div>
+
+    <script>
+        function joinCommunity() {
+            window.open('http://example.com/community', '_blank'); // 更新为您的社区服务器URL
+        }
+
+        function donate() {
+            window.open('https://afdian.com/a/SCP_SL', '_blank'); // 捐赠链接
+        }
+    </script>
+</body>
+</html>
